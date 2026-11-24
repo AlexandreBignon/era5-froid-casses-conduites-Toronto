@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 1. Créer un compte gratuit sur [https://cds.climate.copernicus.eu](https://cds.climate.copernicus.eu) et accepter les conditions d'utilisation si elles sont demandées.
 2. Copier votre jeton API depuis votre page de profil.
-3. Créer le fichier `\~/.cdsapirc` (Windows : `C:\\Users\\<nom>\\.cdsapirc`) :
+3. Créer le fichier `~/.cdsapirc` (Windows : `C:\\Users\\<nom>\\.cdsapirc`) :
 
 ```
    url: https://cds.climate.copernicus.eu/api
