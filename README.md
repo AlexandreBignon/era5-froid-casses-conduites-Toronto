@@ -5,7 +5,7 @@ Notebook Python qui relie la température minimale journalière (réanalyse **ER
 ## Ce que fait le notebook
 
 1. Télécharge la température à 2 m ERA5 (valeurs horaires 1990-2016) pour le point de Toronto, en une seule requête.
-2. Obtiens la température minimale de chaque jour et la relie au nombre de casses du jour.
+2. Obtient la température minimale de chaque jour et la relie au nombre de casses du jour.
 3. **Méthode 1** (inspirée de Bruaset et Sægrov, 2018) : taux de casse par classe de 1 °C de température minimale, puis régression linéaire (OLS).
 4. **Méthode 2** : régression de Poisson jour par jour, avec l'année comme variable de contrôle.
 5. Teste un décalage de 0 à 7 jours entre le froid et la casse, sépare l'effet du froid de celui de la saison, et vérifie si les jours sont indépendants.
